@@ -1,7 +1,7 @@
 
 
 body{
-     background: url("/staticfiles/images/background.jpg") no-repeat center center fixed;
+     background: url("/static/images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,7 +86,7 @@ body {
 }
 
 .first {
-    background: url("/staticfiles/images/background.jpg") no-repeat center center fixed;
+    background: url("/static/images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -105,7 +105,7 @@ body {
 
 
 .third {
-	background: url("/staticfiles/images/background.jpg") no-repeat center center fixed;
+	background: url("/static/images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

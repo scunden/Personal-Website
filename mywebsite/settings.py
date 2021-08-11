@@ -118,16 +118,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/staticfiles/'
+STATIC_URL = '/static/'
 
-import sys
-if sys.argv[1] != 'runserver':
-    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+# import sys
+# if sys.argv[1] != 'runserver':
+#     STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 MEDIA_URL = '/images/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'staticfiles')
+    os.path.join(BASE_DIR, 'static')
 ]
 
 # Default primary key field type
